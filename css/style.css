@@ -19,6 +19,9 @@ body {
   gap: 30px;
   overflow-x: hidden;
 }
+button {
+  user-select: none;
+}
 
 .hero-section {
   height: 85vh;
@@ -305,4 +308,5 @@ video:hover {
   .car-details h1 {
     font-size: 25px;
   }
+
 }
