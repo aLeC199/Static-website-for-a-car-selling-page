@@ -25,12 +25,12 @@ const backgrounds = [
 ];
 
 const ITEMS = [
-  "../images/All-images/Aston/aston1.jpg",
-  "../images/All-images/Audi/audi1.jpg",
-  "../images/All-images/aventador/aventador1.jpg",
-  "../images/All-images/Chevrolet/chevrolette1.jpg",
-  "../images/All-images/Chiron/chiron3.jpg",
-  "../images/All-images/Ferrari/ferrari1.jpg",
+  "images/All-images/Aston/aston1.jpg",
+  "images/All-images/Audi/audi1.jpg",
+  "images/All-images/aventador/aventador1.jpg",
+  "images/All-images/Chevrolet/chevrolette1.jpg",
+  "images/All-images/Chiron/chiron3.jpg",
+  "images/All-images/Ferrari/ferrari1.jpg",
   "../images/All-images/Jesko/jesko1.jpg",
   "../images/All-images/McLaren/mclaren2.jpg",
   "../images/All-images/Mercedes/amg2.jpg",
@@ -166,6 +166,7 @@ items.forEach((itemButt) => {
     localStorage.setItem("selectedImages", JSON.stringify(imageMap[itemId]));
   });
 });
+
 
 
 
