@@ -17,6 +17,11 @@ body {
   letter-spacing: 1px;
   overflow-x: hidden;
 }
+
+button {
+  user-select: none;
+}
+
 .mi-head {
   height: 7vh;
   width: 100vw;
@@ -263,4 +268,5 @@ h1 {
         .image-disp{
           height: 40vh;
         }
+
       }
