@@ -1,0 +1,266 @@
+* {
+  padding: 0;
+  margin: 0;
+  letter-spacing: 1px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 300%;
+  width: 100%;
+  font-style: oblique;
+  background: linear-gradient(to bottom, #1a1a1a, #1a1a1a) center;
+  background-size: cover;
+  color: #ffffff;
+  letter-spacing: 1px;
+  overflow-x: hidden;
+}
+.mi-head {
+  height: 7vh;
+  width: 100vw;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: fixed;
+  z-index: 99;
+  background-color: rgba(10, 10, 10, 0.651);
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+nav {
+  width: 60%;
+  display: flex;
+  height: 100%;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+}
+ul {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  font-size: 17px;
+  cursor: pointer;
+}
+.current-page-indi {
+  height: 80%;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.76);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  padding: 3px;
+}
+.my-main {
+  height: 92vh;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+.image-disp {
+  background-color: white;
+  height: 70vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+.first-image {
+  height: 100%;
+  width: 50%;
+  background: no-repeat center;
+  background-size: cover;
+}
+.other-row {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.second-image {
+  height: 50%;
+  width: 100%;
+  background: no-repeat center;
+  background-size: cover;
+}
+.third-image {
+  height: 50%;
+  width: 100%;
+  background: no-repeat center;
+  background-size: cover;
+}
+#order-butt {
+  height: 32px;
+  width: 140px;
+  outline: none;
+  color: black;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0px 3px rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+  font-style: oblique;
+  position: absolute;
+  top: 42vh;
+  right: 50%;
+  translate: 50%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#order-butt:hover{
+    box-shadow: 0px 2px rgba(0, 0, 0, 0.774);
+
+}
+h1 {
+  text-shadow: 13px;
+  backdrop-filter: brightness(39%);
+}
+.details-sales {
+  height: 40vh;
+  width: 100%;
+  background-color: transparent;
+  overflow-wrap: break-word;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+#car-info {
+  display: flex;
+  flex-direction: column;
+}
+.details-sales h4 {
+  margin-top: 20px;
+  color: #ffffff;
+  padding-bottom: 5px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.images-of-cars-with-details {
+  height: 60vh;
+  width: 90%;
+  background-color: #333;
+}
+
+.details-sales ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+}
+
+.details-sales li {
+  font-weight: normal;
+  font-size: 15px;
+}
+#all-specs {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.mini-specs {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  padding: 0;
+  width: 100%;
+}
+#specs,
+#specs2 {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  padding: 0;
+  gap: 0;
+  width: 50%;
+}
+#bottom-part {
+  padding-top: 10px;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  background-color: rgb(49, 49, 49);
+  position: absolute;
+  top: 260%;
+  left: 0;
+}
+.first-note {
+  font-size: 16px;
+}
+.footer-rows {
+  display: flex;
+  flex-direction: row;
+  height: 90%;
+  width: 100%;
+  background-color: transparent;
+  justify-content: space-between;
+}
+.first-footer-row {
+  height: 100%;
+  width: 50%;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  padding-top: 20px;
+  font-size: 17px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  padding-left: 3px;
+}
+.second-footer-row {
+  height: 100%;
+  width: 50%;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  padding-top: 20px;
+  font-size: 17px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  padding-left: 3px;
+}
+.end-note{
+  height: 40px;
+  background-color: rgb(26, 26, 26);
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media (max-width:720px) {
+  .my-main{
+    box-sizing: border-box;
+  }
+  .mi-head{
+    justify-content: space-evenly;
+    gap: 22px;
+  }
+  nav{
+    width: 100%;
+  }
+  ul{
+    font-size: 15px;
+  }
+    .current-page-indi{
+      height: 70%;
+    }
+        .image-disp{
+          height: 40vh;
+        }
+      }

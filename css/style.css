@@ -1,0 +1,308 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffffff;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  font-style: oblique;
+  flex-direction: column;
+  gap: 30px;
+  overflow-x: hidden;
+}
+
+.hero-section {
+  height: 85vh;
+  padding: 1px;
+  background: radial-gradient(50% 50% at 50% 50%, #fc0404, #ff0000);
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+}
+
+.hero-section .visual-words {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: first baseline;
+  font-size: 50px;
+  word-wrap: break-word;
+  animation: animate 3s ease infinite;
+  overflow-x: hidden;
+}
+
+.visual-words p {
+  padding-top: 60px;
+}
+
+.item-display {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: relative;
+}
+
+.item-display button,
+.itemButt {
+  height: 32px;
+  width: 140px;
+  outline: none;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 2px 3px rgba(0, 0, 0, 0.2);
+  font-size: 12px;
+  font-style: oblique;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.item-display button {
+  position: absolute;
+  bottom: 20%;
+  box-shadow: 0px 0px rgba(0, 0, 0, 0.2);
+  /* Overrides earlier one */
+}
+
+.item-display img {
+  height: auto;
+  width: 100%;
+  backdrop-filter: blur(20px);
+  animation: pulse 3s ease-in-out infinite;
+  transition: opacity 1s, transform 1s ease-in-out;
+  opacity: 1;
+}
+
+.item-display img:hover {
+  transform: scale(1.08);
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+.item-note {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  font-size: 18px;
+  word-break: break-all;
+}
+
+.item-note p {
+  padding-bottom: 20px;
+}
+
+.main {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  color: black;
+  gap: 20px;
+}
+
+.main .highlight {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+.highlight .car-details {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #ffffff;
+  font-size: 12px;
+}
+
+.car-details h1 {
+  font-size: 32px;
+}
+
+#car-images {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../images/lambo.jpg) no-repeat center;
+  background-size: cover;
+  transition: opacity 1s ease-in-out;
+}
+
+.cars-vid {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(220, 230, 230);
+  box-shadow: 0px 0px rgba(0, 0, 0, 0.2);
+  font-size: 12px;
+}
+
+.carsVid-intro {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+video:hover {
+  touch-action: auto;
+}
+
+.engine-part {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  background-color: red;
+  box-sizing: border-box;
+  box-shadow: 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+.engine-part img {
+  width: 90%;
+  height: 90%;
+  border-radius: 23px;
+}
+
+#item-catalog {
+  width: 100%;
+  height: 90vh;
+  padding: 8px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.catalog-note {
+  width: 99%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-rack {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.item {
+  width: 24%;
+  height: 50%;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.itemButt {
+  height: 32px;
+  width: 140px;
+  outline: none;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 2px 3px rgba(0, 0, 0, 0.2);
+  font-size: 12px;
+  font-style: oblique;
+  position: absolute;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.blurry {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+
+  position: static;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Animations */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+@media (max-width:720px) {
+  .hero-section {
+    height: 99vh;
+  }
+
+  .visual-words p {
+    font-size: 35px;
+    z-index: 99;
+  }
+
+  .item-note {
+    font-size: 10px;
+  }
+
+  #header-image {
+    height: 40vh;
+    width: auto;
+    margin-top: 70%;
+  }
+
+  .item {
+    width: 29%;
+    height: 40%;
+  }
+
+  .itemButt {
+    width: 70px;
+  }
+
+  .car-details h1 {
+    font-size: 25px;
+  }
+}
