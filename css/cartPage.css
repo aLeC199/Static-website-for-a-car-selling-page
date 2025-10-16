@@ -9,6 +9,11 @@ body {
   width: 100vw;
 
 }
+
+button {
+  user-select: none;
+}
+
 .mi-head {
   height: 7vh;
   width: 100%;
@@ -211,4 +216,5 @@ button{
     ul{
       font-size: 12px;
     }
+
 }
