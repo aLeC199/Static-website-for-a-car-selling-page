@@ -16,6 +16,10 @@ body {
   display: flex;
 }
 
+button {
+  user-select: none;
+}
+
 .mi-head {
   display: flex;
   justify-content: space-between;
@@ -224,4 +228,5 @@ img {
                   width: 18%;
         
                 }
+
 }
