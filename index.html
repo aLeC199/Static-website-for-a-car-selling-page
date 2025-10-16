@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME PAGE</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="hero-section">
+      <div class="visual-words">
+        <p>
+          Your <br />Place of Luxury <br />
+          Passion And Comfort
+        </p>
+      </div>
+      <div class="item-display">
+        <img src="images/lamborghini.png" alt="car-image" id="header-image" />
+        <button id="car-butt" onclick="location.href='#item-catalog'">Shop Now</button>
+      </div>
+      <div class="item-note">
+        <p>Ride home.....</p>
+      </div>
+    </div>
+    <div class="main">
+      <div class="highlight">
+        <div class="car-details">
+          <h1 id="carNames"></h1>
+          <p id="carDetails">
+            A rare 4-wheel drive that can tackel any terrain. <br />Tackel the
+            storm and Advance......
+          </p>
+        </div>
+        <div id="car-images"></div>
+      </div>
+
+      <div class="cars-vid">
+        <div class="carsVid-intro">
+          <p>
+            Welcome to the world of innovations and the prime of technology.
+          </p>
+        </div>
+        <div>
+          <video
+            src="video/car-vid.mp4"
+            id="carVideo"
+            width="100%"
+            height="100%"
+            autoplay
+            loop
+            muted
+          ></video>
+        </div>
+      </div>
+      <div class="engine-part"></div>
+
+      <div id="item-catalog">
+        <div class="catalog-note">
+          <h1>Our Exclusive products.</h1>
+          <p>Meant to bring out the Kingship in you...</p>
+        </div>
+        <div class="item-rack">
+          <div class="item" ><div class="blurry"></div><button class="itemButt" data-index="0" id="item1">Shop Now</button></div>
+          <div class="item" ><div class="blurry"></div><button class="itemButt" data-index="1" id="item2">Shop Now</button></div>
+          <div class="item" ><div class="blurry"></div><button class="itemButt" data-index="2" id="item3">Shop Now</button></div>
+          <div class="item" ><div class="blurry"></div><button class="itemButt" data-index="3" id="item4">Shop Now</button></div>
+          <div class="item" ><div class="blurry"></div><button class="itemButt" data-index="4" id="item5">Shop Now</button></div>
+          <div class="item" ><div class="blurry"></div><button class="itemButt" data-index="5" id="item6">Shop Now</button></div>
+          <div class="item" ><div class="blurry"></div><button class="itemButt" data-index="6" id="item7">Shop Now</button></div>
+          <div class="item" ><div class="blurry"></div><button class="itemButt" data-index="7" id="item8">Shop Now</button></div>
+          <div class="item" ><div class="blurry"></div><button class="itemButt" data-index="8" id="item9">Shop Now</button></div>
+          <div class="item" ><div class="blurry"></div><button class="itemButt" data-index="9" id="item10">Shop Now</button></div>
+          <div class="item" ><div class="blurry"></div><button class="itemButt" data-index="10" id="item11">Shop Now</button></div>
+          <div class="item" ><div class="blurry"></div><button class="itemButt" data-index="11" id="item12">Shop Now</button></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="item.js"></script>
+  </body>
+</html>
