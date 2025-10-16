@@ -6,16 +6,16 @@ const carsDetails = [
   "Rugged and reliable. Built for adventure and off-road capability....",
 ];
 const carArrays = [
-  "../images/x3orr.jpg",
-  "../images/lambo-show.jpg",
-  "../images/demon-cat.jpg",
-  "../images/draco.jpg",
+  "images/x3orr.jpg",
+  "images/lambo-show.jpg",
+  "images/demon-cat.jpg",
+  "images/draco.jpg",
 ];
 const headerArray = [
-  "../images/lamborghini.png",
-  "../images/aventador.png",
-  "../images/yellow-lambo.png",
-  "../images/twin-lambo.png",
+  "images/lamborghini.png",
+  "images/aventador.png",
+  "images/yellow-lambo.png",
+  "images/twin-lambo.png",
 ];
 const backgrounds = [
   "radial-gradient(50% 50% at 50% 50%, #e41919ff, #ff0000ff)",
@@ -25,18 +25,18 @@ const backgrounds = [
 ];
 
 const ITEMS = [
-  "images/All-images/Aston/aston1.jpg",
-  "images/All-images/Audi/audi1.jpg",
-  "images/All-images/aventador/aventador1.jpg",
-  "images/All-images/Chevrolet/chevrolette1.jpg",
-  "images/All-images/Chiron/chiron3.jpg",
-  "images/All-images/Ferrari/ferrari1.jpg",
-  "../images/All-images/Jesko/jesko1.jpg",
-  "../images/All-images/McLaren/mclaren2.jpg",
-  "../images/All-images/Mercedes/amg2.jpg",
-  "../images/All-images/Nissan/gtr2.jpg",
-  "../images/All-images/Pagani/pagani3.jpg",
-  "../images/All-images/Porsche/turbo1.jpg",
+  "images/All-images/aston1.jpg",
+  "images/All-images/audi1.jpg",
+  "images/All-images/aventador1.jpg",
+  "images/All-images/chevrolette1.jpg",
+  "images/All-images/chiron3.jpg",
+  "images/All-images/ferrari1.jpg",
+  "images/All-images/jesko1.jpg",
+  "images/All-images/mclaren2.jpg",
+  "images/All-images/amg2.jpg",
+  "images/All-images/gtr2.jpg",
+  "images/All-images/pagani3.jpg",
+  "images/All-images/turbo1.jpg",
 ];
 // DOM Elements
 const carNames = document.getElementById("carNames");
@@ -90,66 +90,66 @@ itemsBG.forEach((item, index) => {
 
 const imageMap = {
   item1: [
-    "../images/All-images/Aston/aston1.jpg",
-    "../images/All-images/Aston/aston2.jpg",
-    "../images/All-images/Aston/aston3.jpg"
+    "images/All-images/aston1.jpg",
+    "images/All-images/aston2.jpg",
+    "images/All-images/aston3.jpg"
   ],
   item2: [
-    "../images/All-images/Audi/audi1.jpg",
-    "../images/All-images/Audi/audi2.jpg",
-    "../images/All-images/Audi/audi3.jpg"
+    "images/All-images/audi1.jpg",
+    "images/All-images/audi2.jpg",
+    "images/All-images/audi3.jpg"
   ],
   item3: [
-    "../images/All-images/aventador/aventador1.jpg",
-    "../images/All-images/aventador/aventador3.jpg",
-    "../images/All-images/aventador/aventador2.jpg"
+    "images/All-images/aventador1.jpg",
+    "images/All-images/aventador3.jpg",
+    "images/All-images/aventador2.jpg"
   ],
   item4: [
-    "../images/All-images/Chevrolet/chevrolette1.jpg",
-    "../images/All-images/Chevrolet/chevrolette2.jpg",
-    "../images/All-images/Chevrolet/chevrolette3.jpg"
+    "images/All-images/chevrolette1.jpg",
+    "images/All-images/chevrolette2.jpg",
+    "images/All-images/chevrolette3.jpg"
   ],
   item5: [
-    "../images/All-images/Chiron/chiron1.jpg",
-    "../images/All-images/Chiron/chiron2.jpg",
-    "../images/All-images/Chiron/chiron3.jpg"
+    "images/All-images/chiron1.jpg",
+    "images/All-images/chiron2.jpg",
+    "images/All-images/chiron3.jpg"
   ],
   item6: [
-    "../images/All-images/Ferrari/ferrari1.jpg",
-    "../images/All-images/Ferrari/ferrari2.jpg",
-    "../images/All-images/Ferrari/ferrari3.jpg"
+    "images/All-images/ferrari1.jpg",
+    "images/All-images/ferrari2.jpg",
+    "images/All-images/ferrari3.jpg"
   ],
   item7: [
-    "../images/All-images/Jesko/jesko1.jpg",
+    "images/All-images/jesko1.jpg",
 
-    "../images/All-images/Jesko/jesko2.jpg",
+    "images/All-images/jesko2.jpg",
 
-    "../images/All-images/Jesko/jesko3.jpg"
+    "images/All-images/jesko3.jpg"
   ],
   item8: [
-    "../images/All-images/McLaren/mclaren2.jpg",
-    "../images/All-images/McLaren/mclaren1.jpg",
-    "../images/All-images/McLaren/mclaren3.jpg"
+    "images/All-images/mclaren2.jpg",
+    "images/All-images/mclaren1.jpg",
+    "images/All-images/mclaren3.jpg"
   ],
   item9: [
-    "../images/All-images/Mercedes/amg1.jpg",
-    "../images/All-images/Mercedes/amg2.jpg",
-    "../images/All-images/Mercedes/amg3.jpg"
+    "images/All-images/amg1.jpg",
+    "images/All-images/amg2.jpg",
+    "images/All-images/amg3.jpg"
   ],
   item10: [
-    "../images/All-images/Nissan/gtr1.jpg",
-    "../images/All-images/Nissan/gtr2.jpg",
-    "../images/All-images/Nissan/gtr3.jpg"
+    "images/All-images/gtr1.jpg",
+    "images/All-images/gtr2.jpg",
+    "images/All-images/gtr3.jpg"
   ],
   item11: [
-    "../images/All-images/Pagani/pagani2.jpg",
-    "../images/All-images/Pagani/pagani1.jpg",
-    "../images/All-images/Pagani/pagani3.jpg"
+    "images/All-images/pagani2.jpg",
+    "images/All-images/pagani1.jpg",
+    "images/All-images/pagani3.jpg"
   ],
   item12: [
-  "../images/All-images/Porsche/turbo1.jpg",
-  "../images/All-images/Porsche/turbo2.jpg",
-  "../images/All-images/Porsche/turbo3.jpg"
+  "images/All-images/turbo1.jpg",
+  "images/All-images/turbo2.jpg",
+  "images/All-images/turbo3.jpg"
 ],
 };
 
@@ -166,7 +166,3 @@ items.forEach((itemButt) => {
     localStorage.setItem("selectedImages", JSON.stringify(imageMap[itemId]));
   });
 });
-
-
-
-
